@@ -42,8 +42,8 @@
 </head>
 
 <body>
-  <main class="lg:ms-24 lg:me-24 mt-5 lg:mt-12">
-    <nav class="flex justify-between  lg:bg-[#F85559] items-center rounded-full h-20">
+  <main class="lg:ms-24 lg:me-24">
+    <nav class="flex justify-between  lg:bg-[#F85559] items-center rounded-full h-20 mt-5 mb-3 lg:mb-8 lg:mt-10">
       <div class="hidden lg:block lg:flex  gap-7 ps-12 text-white font-lato">
         <a href="">Home</a>
         <a href="">About Us</a>
@@ -59,7 +59,7 @@
 
 
       <div class="hidden lg:block pe-12 items-center flex">
-        <input class="text-white ps-8 w-[280px] rounded-full h-10" type="text" placeholder="Search Here" >
+        <input class="text-white ps-8 w-[280px] rounded-full h-10" type="text" placeholder="Search Here">
         <button class="-ms-8">
           <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
         </button>
@@ -71,7 +71,82 @@
 
     </nav>
 
+    <section>
+      <div>
+        <div class="carousel w-full h-[320px] lg:h-auto">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="/images/banner1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle text-white bg-black border-0">❮</a>
+              <a href="#slide2" class="btn btn-circle  text-white bg-black border-0">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="/images/banner2.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle  text-white bg-black border-0">❮</a>
+              <a href="#slide3" class="btn btn-circle  text-white bg-black border-0">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="/images/banner3.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle  text-white bg-black border-0">❮</a>
+              <a href="#slide4" class="btn btn-circle  text-white bg-black border-0">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="/images/banner4.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle  text-white bg-black border-0">❮</a>
+              <a href="#slide1" class="btn btn-circle  text-white bg-black border-0">❯</a>
+            </div>
+          </div>
+        </div>
 
+      </div>
+
+      <div class="-mt-[550px] md:-mt-[750px] lg:-mt-[600px]">
+        <div class="hero min-h-screen">
+          <div class="hero-content text-center">
+            <div class="max-w-md text-white">
+              <h1 class="text-2xl lg:text-5xl font-bold">Exotic tastes at your <br>
+                doorstep</h1>
+              <p class="py-3 lg:py-6">We supply highly quality organic products</p>
+              <button class="btn text-white bg-[#f03134] border-0">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="hidden md:block lg:block ms-28 me-28 justify-around bg-white md:flex lg:flex relative md:-mt-80 lg:-mt-28 rounded-lg py-3 shadow-xl">
+        <div class="text-center">
+          <div>
+            <img src="./images/fruit1.png" alt="">
+          </div>
+          <div>
+            <h1>Strawberry</h1>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <img src="./images/fruit2.png" alt="">
+          <h1>Orange</h1>
+        </div>
+
+        <div class="text-center">
+          <img src="./images/fruit3.png" alt="">
+          <h1>Mango</h1>
+        </div>
+
+        <div class="text-center">
+          <img src="./images/fruit4.png" alt="">
+          <h1>Strawberry</h1>
+        </div>
+
+      </div>
+    </section>
 
 
 

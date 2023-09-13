@@ -2,49 +2,82 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit Brust</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Burst</title>
 
-    <!-- tailwind and daisy UI -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind and daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Lato google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <!-- Lato google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/21eb4dfeb8.js" crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/21eb4dfeb8.js" crossorigin="anonymous"></script>
 
-    <!-- tailwind custom color -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
-            }
+  <!-- tailwind custom color -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
         }
-    </script>
+      }
+    }
+  </script>
 
-
-
-
-    <style>
-        .font-lato {
-            font-family: 'Lato', sans-serif;
-        }
-    </style>
+  <style>
+    .font-lato {
+      font-family: 'Lato', sans-serif;
+    }
+  </style>
 
 
 </head>
 
 <body>
+  <main class="lg:ms-24 lg:me-24 mt-5 lg:mt-12">
+    <nav class="flex justify-between  lg:bg-[#F85559] items-center rounded-full h-20">
+      <div class="hidden lg:block lg:flex  gap-7 ps-12 text-white font-lato">
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Shop</a>
+        <a href="">All Fruits</a>
+      </div>
+
+
+      <div class="flex items-center gap-3 lg:gap-7 lg:text-white">
+        <img src="./images/logo.png" alt="">
+        <h1 class="font-lato font-bold sm:text-3xl text-4xl">Fruit Burst</h1>
+      </div>
+
+
+      <div class="hidden lg:block pe-12 items-center flex">
+        <input class="text-white ps-8 w-[280px] rounded-full h-10" type="text" placeholder="Search Here" >
+        <button class="-ms-8">
+          <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+        </button>
+      </div>
+
+      <div class=" lg:hidden me-2">
+        <i class="fa-solid fa-bars text-3xl" style="color: #000000;"></i>
+      </div>
+
+    </nav>
+
+
+
+
+
+  </main>
+
+
 
 </body>
 
